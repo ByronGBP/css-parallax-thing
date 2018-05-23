@@ -4,7 +4,7 @@
 
 - Give it a try:
 
-  - [!!!!!](https://byrongbp.github.io/canvas-circular-thing/)
+  - [!!!!!](https://byrongbp.github.io/css-parallax-thing/)
    
 - TODO
   - [!!!!!](./TODO.md)
