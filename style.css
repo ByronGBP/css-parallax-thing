@@ -1,0 +1,117 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  box-sizing: border-box;
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+  color:white;
+
+  border: 1px solid black;
+}
+
+.separator {
+
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+
+}
+
+.img-one {
+
+  display: flex;
+
+
+  height: 100vh;
+  width: 100vw;
+
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+
+  padding:5%;
+
+}
+
+#img-one {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background: url("./img1.png");
+  background-position: 50%;
+  background-size: cover;
+  filter: brightness(50%);
+  z-index: -1;
+}
+
+.img-two {
+
+  display:flex;
+
+  background: url("./img2.png");
+
+  background-position: 50%;
+  background-size: cover;
+
+  height: 100vh;
+  width: 100vw;
+
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+
+  padding:5%;
+
+
+}
+
+.title {
+  font-size: 600%;
+  text-align: center;
+
+}
+
+.description {
+
+  text-align: center;
+  font-size: 190%;
+}
+
+.paragraphs {
+  padding: 50px;
+
+}
+
+.content {
+  font-size: 160%;
+  display: flex;
+
+  display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+
+}
